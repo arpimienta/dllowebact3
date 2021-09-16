@@ -1,0 +1,36 @@
+
+.fila1 {
+    height: 180px;
+}
+
+.fila2 {
+    height: 400px;
+}
+
+.fila3 {
+    height: 400px;
+}
+
+.fila4 {
+    height: 40px;
+}
+
+.header {
+    background: #3c3c3c;
+}
+
+.menu {
+    background: #252526;
+}
+
+.main1 {
+    background: #3c3c3c;
+}
+
+.main2 {
+    background: #252526;
+}
+
+.footer {
+    background: #3c3c3c;
+}
