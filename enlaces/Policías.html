@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>Comisaría de policía</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            <center>
+            Comisaría de Policía
+            </center>
+        </h1>
+
+        <center><nav class="navegacion">
+            <ul class="menu">
+
+                <li>
+                    <a href="./Policías.html" class="vinculo"><h2>Policias</h2></a>
+                </li>
+                    
+                
+                <li>
+                    <a href="./Armas.html" class="vinculo"><h2>Armas</h2></a>
+                </li>
+                    
+                <li>
+                    <a href="./Delincuentes.html" class="vinculo"><h2>Delincuentes</h2></a>
+                </li>
+
+                <li>
+                    <a href="./Casos.html" class="vinculo"><h2>Casos</h2></a>
+                </li>
+
+            </ul>
+        </nav>
+        </center>
+
+    </header>
+    
+    <h2>Perfil policial</h2>
+
+    <section>
+        <form action="perfil-policial" method="post">
+            <ul>
+             <ol>
+               <label for="name">Nombre del policia:</label>
+               <input type="text" id="name" name="user_name">
+             </ol>
+             <ol>
+               <label for="cedula">Cedula del policia:</label>
+               <input type="text" id="cedula" name="user_cedula">
+             </ol>
+             <ol>
+                <label>Tipo de categorias</label>
+                <input list="categoria" name="list">
+                <datalist id="categoria">
+                    <option label="Administrativas" value="Administrativas">
+                    <option label="Agentes" value="Agentes">
+                    <option label="Otras" value="Otras">
+                </datalist>
+             </ol>
+            </ul>
+           </form>
+    </section>
+
+    <a class="back"  href="../index.html">REGRESAR</a>
+
+</body>
+</html>
